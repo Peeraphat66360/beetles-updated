@@ -29,7 +29,7 @@ const Navbar = ({ handleOrderPopup, cart }) => {
   }, 0)
 
   return (
-    <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
+    <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 z-40 relative sticky top-0 left-0">
       {/* Upper Navbar */}
       <div className="bg-primary/40 py-2">
         <div className="container flex justify-between items-center">
